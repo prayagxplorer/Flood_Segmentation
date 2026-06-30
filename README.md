@@ -2,6 +2,12 @@
 
 This repository contains the deep learning training pipeline for FloodGateAI: a PyTorch UNet model for binary flood segmentation.
 
+## Live Demo & Kaggle
+- **Trained Model on Kaggle**: If you are evaluating this model, you do not need to run it locally. The model was trained on Kaggle. You can view the fully trained model and its execution here: [Flood Segmentation Model on Kaggle](https://www.kaggle.com/code/daemon49/flood-segmentation-model)
+- **Live Website**: A client-side web application has been built using this trained model. Users can upload a flood image and get segmented predictions directly in their browser.
+  - **Website Link**: [https://prayagxplorer.github.io/FloodGateAI/](https://prayagxplorer.github.io/FloodGateAI/)
+  - **Website GitHub Repository**: [https://github.com/prayagxplorer/FloodGateAI](https://github.com/prayagxplorer/FloodGateAI)
+
 ## Repository Layout
 
 ```text
