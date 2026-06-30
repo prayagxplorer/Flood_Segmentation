@@ -9,7 +9,7 @@ Flood_Segmentation/
 |-- .gitignore
 |-- README.md
 |-- requirements.txt
-|-- Model.ipynb
+|-- flood-segmentation-model.ipynb
 `-- sample_data/
     |-- images/
     `-- masks/
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 Then open and run:
 
 ```bash
-jupyter notebook Model.ipynb
+jupyter notebook flood-segmentation-model.ipynb
 ```
 
 Training outputs are written to `working/` locally or `/kaggle/working/` on Kaggle. Generated checkpoints and zip files are ignored by git.
