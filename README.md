@@ -10,21 +10,21 @@ Flood_Segmentation/
 |-- README.md
 |-- requirements.txt
 |-- flood-segmentation-model.ipynb
-`-- sample_data/
-    |-- images/
-    `-- masks/
+`-- dataset/
+    |-- Image/
+    `-- Mask/
 ```
 
-The `sample_data/` folder contains exactly two real image/mask pairs for quick dataloader verification. It is not meant for real model training.
+The `dataset/` folder is where you should place the external dataset. 
 
 ## Data Setup
 
-Do not commit the full dataset to this repository. Place the external dataset in a local `data/` folder, which is ignored by git.
+Do not commit the full dataset to this repository. Place the extracted Kaggle dataset directly inside the `dataset/` folder, which is ignored by git. For details, see `dataset/README.md`.
 
 Expected local dataset layout:
 
 ```text
-data/
+dataset/
 |-- metadata.csv
 |-- Image/
 `-- Mask/

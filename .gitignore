@@ -13,7 +13,9 @@ venv/
 env/
 
 # External datasets and generated training outputs
-data/
+dataset/Image/
+dataset/Mask/
+dataset/metadata.csv
 working/
 outputs/
 checkpoints/
