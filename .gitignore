@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# External datasets and generated training outputs
+data/
+working/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.zip
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local assistant/context artifacts
+.agents/
+.codex/
+GitHub Repo Structure for ML Project - Google Gemini.pdf

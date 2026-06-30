@@ -1,0 +1,12 @@
+albumentations
+ipykernel
+jupyter
+matplotlib
+numpy
+opencv-python-headless
+pandas
+pillow
+scikit-learn
+torch
+torchvision
+tqdm
