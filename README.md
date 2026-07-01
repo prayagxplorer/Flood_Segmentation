@@ -50,6 +50,13 @@ When running on Kaggle, attach the dataset to the notebook. The notebook searche
 - Dice coefficient validation metric with early stopping.
 - `nn.DataParallel` support for multi-GPU training, including Kaggle dual T4 sessions.
 
+## Model Performance
+
+The model was trained for 25 epochs on a dual-GPU setup. The training achieved the following best performance metrics:
+
+- **Best Validation Dice Coefficient:** 0.8357 (Epoch 25)
+- **Final Training Dice Coefficient:** 0.8038
+
 ## Local Setup
 
 Create an environment and install dependencies:
